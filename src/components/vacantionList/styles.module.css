@@ -1,0 +1,25 @@
+.vacancySection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.sectionTitle {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.vacancyGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}

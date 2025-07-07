@@ -16,6 +16,7 @@ function Footer () {
                         <ListCities />
                     </FlexContainer>
             </FlexContainer>
+            <div className={styles.footerDivider} />
             <FlexContainer className={styles.footerContainerBottom}>
                 <img src={cooljobIcon} alt="Cooljob logo" className={styles.logoImage}/>
                 <FlexContainer className={styles.footerContainerLinks}>

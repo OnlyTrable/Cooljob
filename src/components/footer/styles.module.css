@@ -34,6 +34,8 @@ p {
     flex-direction: row;
     gap: 36px;
 }
-.facebookIcon {
-    background-color: white;
+
+.footerDivider {
+    border: 2px solid #465461;
+    margin: 0px 97px;
 }

@@ -1,5 +1,5 @@
 import Sony from '../../assets/icons/sony.svg';
-import Facebook from '../../assets/icons/Facebook.svg';
+import Facebook from '../../assets/icons/facebook.svg';
 import Cola from '../../assets/icons/cocacola.svg';
   const vacancyCardsData = [
     {
