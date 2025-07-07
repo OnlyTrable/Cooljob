@@ -13,13 +13,33 @@
 }
 
 .vacancyGrid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 24px;
+    display: flex; /* Змінюємо на flex */
+    flex-wrap: wrap; /* Дозволяємо елементам переноситися на новий рядок */
+    justify-content: space-between; /* Центруємо елементи, якщо їх менше, ніж може поміститися в ряду */
+    gap: 40px; /*  Залишаємо gap для відступів між елементами */
     width: 100%;
     max-width: 1287px;
+    margin: 0 auto; /* Додаємо margin auto для центрування самого контейнера */
 }
 
-.buttonContainer {
+/* Стилі для дочірніх елементів (карток вакансій) */
+.vacancyGrid > * { /* Застосовуємо до всіх прямих нащадків .vacancyGrid */
+    flex: 1 1 320px; /* flex-grow flex-shrink flex-basis */
+    max-width: calc((100% - 2 * 24px) / 3); /* Приклад для 3 колонок з урахуванням gap */
+}
+
+.allButton {
     margin-top: 20px;
+    padding: 20px 50px;
+    background-color: #274059;
+    color: #FFFFFF;
+    border: 2px solid #274059;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.allButton:hover {
+    border: 2px solid #3c638a;
+    cursor: pointer;
 }

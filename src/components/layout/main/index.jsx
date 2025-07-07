@@ -1,11 +1,11 @@
-import  financeIcon  from "../../assets/icons/Finance.svg"
-function Home () {
+import  VacancyCardList from "@/components/features/VacancyCardList"
+
+function Main () {
     return (
     <>    
-    <h1>Home</h1>
-    <img src={financeIcon} alt="unionIcon" />
+    <VacancyCardList />
     </>
     )
 }
 
-export default Home;
+export default Main;
