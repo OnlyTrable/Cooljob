@@ -1,6 +1,6 @@
-import cooljobIcon from "../../assets/icons/Cooljob.svg"
-import FlexContainer from "../flexContainer"
-import Button from "../button"
+import cooljobIcon from "@/assets/icons/Cooljob.svg"
+import FlexContainer from "@/components/ui/flexContainer"
+import Button from "@/components/ui/Button"
 import styles from './styles.module.css'
 
 function Header () {

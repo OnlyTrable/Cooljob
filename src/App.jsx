@@ -1,6 +1,6 @@
-import Header from './components/header'
-import Footer from './components/footer'
-import VacancyCardList from './components/vacancyCardList'
+import Header from './components/layout/Header'
+import Footer from './components/layout/footer'
+import VacancyCardList from './components/features/VacancyCardList'
 import './App.css'
 
 function App() {

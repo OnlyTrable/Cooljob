@@ -1,6 +1,6 @@
-import FlexContainer from '../flexContainer';
+import FlexContainer from '../../ui/flexContainer';
 import styles from './styles.module.css';
-import locationIcon from "../../assets/icons/Location.svg"
+import locationIcon from "../../../assets/icons/Location.svg"
 
 // Компонент приймає об'єкт з даними через пропси
 function VacancyCard({

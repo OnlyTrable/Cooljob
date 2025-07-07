@@ -1,4 +1,4 @@
-import vacancyCardsData from "../vacancyCardData";
+import vacancyCardsData from "../../data/vacancyCardData";
 
 // 1. Назва компонента має починатися з великої літери: LiList
 function ListCities () {
