@@ -1,0 +1,39 @@
+p {
+    color: #D0E8FF;
+}
+.footer {
+    background-color: #52606D;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 370px;
+}
+.footerContainerTop {
+    display: flex;
+    flex-direction: column;
+    margin: 56px 97px 48px 97px;
+}
+.footerContainerList {
+    display: flex;
+    justify-content: space-between;
+    color: #D0E8FF;
+    margin-top: 56px;
+}
+.footerContainerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px 97px 48px 97px;
+}
+.logoImage {
+    width: 111px;
+    height: 40px;
+}
+.footerContainerLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+.facebookIcon {
+    background-color: white;
+}

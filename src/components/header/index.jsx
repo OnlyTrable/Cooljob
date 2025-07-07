@@ -1,22 +1,22 @@
-import  financeIcon  from "../../assets/icons/Finance.svg"
+import cooljobIcon from "../../assets/icons/Cooljob.svg"
 import FlexContainer from "../flexContainer"
+import Button from "../button"
+import styles from './styles.module.css'
 
 function Header () {
     return (
     <>
-        <h1>Header</h1>
-        <FlexContainer className="header-container">
-            <FlexContainer className="logo-container">
-                <img src="src/assets/icons/Cooljob.svg" alt="Cooljob logo" className="logo-image"/>
+        <FlexContainer className={styles.headerContainer}>
+            <FlexContainer className={styles.logoContainer}>
+                <img src={cooljobIcon} alt="Cooljob logo" className={styles.logoImage}/>
                 <p>Поиск работы</p>
                 <p>Поиск стартапов</p>
             </FlexContainer>
-            <FlexContainer className="input-links-container"> {/* This FlexContainer is for navigation links */}
+            <FlexContainer className={styles.inputLinksContainer}> {/* This FlexContainer is for navigation links */}
                 <p>Регистрация</p>
-                <button className="login-button">Вход</button>
+                <Button className={styles.loginButton}>Вход</Button>
             </FlexContainer>
         </FlexContainer>
-        <img src={financeIcon} alt="unionIcon" />
     </>
     )
 }
