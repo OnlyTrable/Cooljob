@@ -1,11 +1,15 @@
-import  unionIcon  from "../../assets/icons/Union.svg"
+import Header from "/src/components/header/"
+import Main from "/src/components/main/"
+import Footer from "/src/components/footer/"
+
 function Home () {
     return (
     <>    
-    <h1>Home</h1>
-    <img src={unionIcon} alt="unionIcon" />
+    <Header />
+    <Main />
+    <Footer />
     </>
     )
 }
 
-export default Home;
+export default Home
