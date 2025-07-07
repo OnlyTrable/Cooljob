@@ -1,9 +1,9 @@
-import  unionIcon  from "../../assets/icons/Union.svg"
+import  financeIcon  from "../../assets/icons/Finance.svg"
 function Footer () {
     return (
-    <>    
-    <h1>Footer</h1>
-    <img src={unionIcon} alt="unionIcon" />
+    <>
+        <h1>Footer</h1>
+        <img src={financeIcon} alt="unionIcon" />
     </>
     )
 }
