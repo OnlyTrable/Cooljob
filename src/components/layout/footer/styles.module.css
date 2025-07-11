@@ -11,7 +11,7 @@ p {
 .footerContainerTop {
     display: flex;
     flex-direction: column;
-    margin: 56px 97px 48px 97px;
+    margin: 56px 0px 48px 0px;
 }
 .footerContainerList {
     display: flex;
@@ -23,7 +23,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 56px 97px 48px 97px;
+    margin: 56px 0px 48px 0px;
 }
 .logoImage {
     width: 111px;
@@ -37,5 +37,5 @@ p {
 
 .footerDivider {
     border: 2px solid #465461;
-    margin: 0px 97px;
+    margin: 0px 0px;
 }

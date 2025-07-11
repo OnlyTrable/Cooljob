@@ -1,0 +1,24 @@
+.mainFrame {
+  /* Встановлюємо flex-контейнер з вертикальним напрямком */
+  display: flex;
+  flex-direction: column;
+
+  /* Задаємо відступи */
+  padding-left: 100px;
+  padding-right: 100px;
+
+  /* Центруємо контент по горизонталі на великих екранах */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* Опціонально: можна додати максимальну ширину для кращого вигляду */
+  max-width: 1720px;
+}
+
+/* Медіа-запит для маленьких екранів (наприклад, мобільних) */
+@media (max-width: 375px) {
+  .mainFrame {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}

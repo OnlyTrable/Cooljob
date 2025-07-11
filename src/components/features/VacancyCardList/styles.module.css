@@ -2,16 +2,27 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     gap: 30px;
     padding: 40px 20px;
 }
 
 .sectionTitle {
-    font-size: 2rem;
-    font-weight: bold;
+    align-items: start;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
 }
+p {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    color: #8D8D8DCC;
 
+}
 .vacancyGrid {
     display: flex; /* Змінюємо на flex */
     flex-wrap: wrap; /* Дозволяємо елементам переноситися на новий рядок */
@@ -29,7 +40,8 @@
 }
 
 .allButton {
-    margin-top: 20px;
+    margin-top: 61px;
+    margin-bottom: 111px;
     padding: 20px 50px;
     background-color: #274059;
     color: #FFFFFF;
