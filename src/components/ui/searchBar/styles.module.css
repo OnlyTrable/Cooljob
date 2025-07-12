@@ -7,20 +7,32 @@
 
 .searchIcon {
     margin-right: 8px;
-    width: 28px;
-    height: 23px;
+    width: 20px;
+    height: 20px;
 }
 
 .searchInput {
     border: none;
     outline: none;
     width: 100%;
+    font-size: 16px;
     background-color: transparent;
-    font-family: Raleway;
-    font-weight: 400;
-    font-size: 18px;
 }
 
 .searchInput::placeholder {
-    color: #000000;
+    color: #A4A4A4;
+}
+
+.searchBarUnstyled {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
+}
+
+.searchBarUnstyled {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    width: 100%;
 }
