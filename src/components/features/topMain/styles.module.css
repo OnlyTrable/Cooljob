@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 1720px;
     height: 180px;
+    background-color: white;
 }
 .LeftTopMain {
     display: flex;
@@ -12,7 +13,7 @@
     width: 50%;
     height: 180px;
 }
-.p-text {
+.p_text {
     font-family: Raleway;
     font-weight: 600;
     font-size: 16px;

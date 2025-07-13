@@ -1,6 +1,6 @@
-import Sony from '../../../assets/icons/sony.svg';
-import Facebook from '../../../assets/icons/facebook.svg';
-import Cola from '../../../assets/icons/cocacola.svg';
+import Sony from '@/assets/icons/sony.svg?react';
+import Facebook from '@/assets/icons/facebook.svg?react';
+import Cola from '@/assets/icons/cocacola.svg?react';
   const vacancyCardsData = [
     {
       color: '#5182FF',

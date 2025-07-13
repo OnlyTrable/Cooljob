@@ -18,12 +18,14 @@
     justify-content: space-between;
     color: #D0E8FF;
     margin-top: 56px;
+    cursor: pointer;
 }
 .footerContainerBottom {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 56px 0px 48px 0px;
+    cursor: pointer;
 }
 .logoImage {
     width: 111px;

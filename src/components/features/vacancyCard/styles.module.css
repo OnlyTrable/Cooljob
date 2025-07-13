@@ -1,27 +1,32 @@
 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     border: 1px solid #e0e0e0;
     padding: 16px;
     width: 450px;
     height: 350px;
     box-shadow: 2px 4px 4px 0px #00000026;
     font-family: 'Raleway', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: #FFFFFF;
+    cursor: pointer;
 }
-
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
 .categoryContainer {
     display: flex;
     align-items: center;
     gap: 8px;
-    
+    flex-grow: 1;
 }
 
 .colorDot {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    flex-shrink: 0;
+    margin-top: -23px;
 }
 
 .categoryText {
@@ -30,20 +35,18 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
-    letter-spacing: 0%;
     margin-left: 9px;
+    margin-top: 23px;
+    margin-bottom: 40px;
 }
 
 .vacancyText {
-    line-height: 1.3;
-    flex-grow: 0;
+    flex-grow: 7;
     font-family: Raleway;
     font-weight: 700;
     font-size: 22px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #000000CC;
-    margin-top: 40px;
     margin-bottom: 16px;
     width: 272px;
 }
@@ -51,17 +54,21 @@
 .location {
     font-size: 14px;
     color: #777;
+    flex-grow: 1;
 }
 
 .companyContainer {
     display: flex;
     align-items: center;
     gap: 8px;
+    flex-grow: 1;
 }
 
 .companyLogo {
-    width: 70px;
-    height: 19px;
+    height: 19px; /* Встановлюємо фіксовану висоту для всіх логотипів */
+    width: auto;  /* Дозволяємо ширині масштабуватися пропорційно */
+    max-width: 90px; /* Обмежуємо максимальну ширину, щоб уникнути виходу за межі */
+    margin-right: 12px;
 }
 
 .companyName {

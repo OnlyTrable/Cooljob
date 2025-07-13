@@ -1,0 +1,22 @@
+.categorySection {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.sectionTitle {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 40px;
+  color: #000000D9;
+}
+
+.categoryGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 27px;
+}
+
+.categoryGrid > :last-child {
+  background-color: #CDE7FF;
+}

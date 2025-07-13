@@ -11,7 +11,7 @@ function TopMain() {
   return (
     <FlexContainer className={styles.TopMain}>
       <FlexContainer className={styles.LeftTopMain}>
-          <p className="p-text" styles={"color: #696969CC"}>Помогаем найти работу:</p>
+          <p className="p_text" styles={"color: #696969CC"}>Помогаем найти работу:</p>
       </FlexContainer>
       <FlexContainer className={styles.RightTopMain}>
         <img src={disneyIcon} alt="Disney logo" className={styles.disneyIcon}/>

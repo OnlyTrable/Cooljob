@@ -13,6 +13,14 @@
     background-position-y: calc(100% + 100px);
     background-size: 1049px 597px;
 }
+
+.fullMainFrameContainer{
+    background-color: #CDE7FF;
+}
+.fullTopMainFrameContainer{
+    background-color: #FFFFFF;
+    height: 180px;
+}
 .fullAppFooterContainer{
     height: 370px;
     background-color: #52606D;

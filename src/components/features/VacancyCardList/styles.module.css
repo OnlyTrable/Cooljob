@@ -3,25 +3,25 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between; /*flex-start;*/
-    align-items: center;
-    gap: 30px;
-    padding: 40px 20px;
+    align-items: stretch;
+    gap: 12px;
+    padding: 30px 0px;
 }
 
 .sectionTitle {
-    align-items: start;
+    align-items: center;
     font-family: Raleway;
     font-weight: 700;
     font-size: 28px;
     line-height: 100%;
 }
-p {
+.p_section {
     font-family: Raleway;
     font-weight: 600;
     font-size: 15px;
     line-height: 100%;
     color: #8D8D8DCC;
-
+    margin-bottom: 43px;
 }
 .vacancyGrid {
     display: flex;
@@ -35,10 +35,13 @@ p {
 
 /* Стилі для дочірніх елементів (карток вакансій) */
 .vacancyGrid > * { /* Застосовуємо до всіх прямих нащадків .vacancyGrid */
-    flex: 1 1 350px; /* flex-grow flex-shrink flex-basis */
+    flex: 1 1 450px; /* flex-grow flex-shrink flex-basis */
     max-width: calc((100% - 2 * 24px) / 3); /* Приклад для 3 колонок з урахуванням gap */
 }
-
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+}
 .allButton {
     margin-top: 61px;
     margin-bottom: 111px;

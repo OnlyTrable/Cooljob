@@ -22,7 +22,7 @@ function VacancyCardList() {
   return (
     <section className={styles.vacancySection}>
       <h2 className={styles.sectionTitle}>Новые вакансии</h2>
-      <p>Найди работу своей мечты прямо сейчас</p>
+      <p className={styles.p_section}>Найди работу своей мечты прямо сейчас</p>
       <div className={styles.vacancyGrid}>
         {vacanciesToDisplay.map((vacancy, index) => (
           <VacancyCard key={index} {...vacancy} />
@@ -30,7 +30,7 @@ function VacancyCardList() {
       </div>
 
       {!showAll && vacancyCardsData.length > 6 && (
-        <div>
+        <div className={styles.buttonContainer}>
           <Button className={styles.allButton} onClick={() => setShowAll(true)}>
             Все вакансии
           </Button>

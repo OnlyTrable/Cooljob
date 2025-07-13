@@ -4,7 +4,6 @@ p {
     font-weight: 400;
     font-size: 15px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #000000D9;
 }
 .fullHeaderContainer{
@@ -48,7 +47,6 @@ p {
     font-weight: 700;
     font-size: 15px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #274059;
 }
 
@@ -59,13 +57,12 @@ p {
     font-weight: 600;
     font-size: 15px;
     line-height: 100%;
-    letter-spacing: 0%;
     color: #000000CC;
     margin-right: 53px;
     background-color: #CDE7FF;
     border: none;
 }
-
+.searchOtherButton:hover,
 .loginButton:hover,
 .searchButton:hover,
 .startupButton:hover,
@@ -80,7 +77,6 @@ h1{
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    letter-spacing: 0%;
 }
 
 .searchContainer{
