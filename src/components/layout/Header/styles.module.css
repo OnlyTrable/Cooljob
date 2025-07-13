@@ -12,11 +12,7 @@ p {
     flex-direction: column;
     wigth: 100%;
     height: 800px;
-    background-image: url('@/assets/icons/curve.svg');
-    background-color: #CDE7FF;
-    background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: contain; /* або 'cover', якщо потрібно розтягнути */
+    background-color: transparent;
 }
 
 .headerContainer {
@@ -118,33 +114,8 @@ h1{
     height: 20px;
     margin-top:42px;
 }
-/* Псевдо-елемент для фонового кольору. Знаходиться найнижче. */
-.fullHeaderContainer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #CDE7FF;
-    z-index: -2;
-}
 
-/* Псевдо-елемент для фонового зображення. Знаходиться над кольором, але під контентом. */
-.fullHeaderContainer::after {
-    content: '';
-    position: absolute;
-    background-image: url('@/assets/icons/curve.png');
-    background-repeat: no-repeat;
-    background-position: right bottom; /*center*/
-    background-size: cover;
-    top: -23px;
-    left: 770px;
-    width: 895px;/*1678px*/
-    height: 709px;/*953px*/
-    transform: rotate(-0.71deg);
-    z-index: -1; /* <-- КЛЮЧОВА ЗМІНА: розміщує зображення ПІД контентом */
-}
+
 
 
 
