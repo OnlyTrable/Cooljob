@@ -14,8 +14,12 @@ function App() {
       </div>
       <MainFrame>
         <Main />
+      </MainFrame>
+      <div className="fullAppFooterContainer">
+      <MainFrame>
         <Footer />
       </MainFrame>
+      </div>
     </>
   )
 }

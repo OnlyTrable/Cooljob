@@ -1,0 +1,27 @@
+.TopMain{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+}
+.LeftTopMain {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 50%;
+    height: 180px;
+}
+.p-text {
+    font-family: Raleway;
+    font-weight: 600;
+    font-size: 16px;
+    color: #696969CC;
+}
+.RightTopMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 180px;
+}

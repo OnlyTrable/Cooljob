@@ -1,17 +1,17 @@
 import cooljobIcon from "../../../assets/icons/Cooljob.svg"
 import instagramIcon from "../../../assets/icons/instagram.svg"
 import googleIcon from "../../../assets/icons/google.svg"
-import facebookIcon from "../../../assets/icons/Facebook.svg"
-import twitterIcon from "../../../assets/icons/twitter.svg"
-import FlexContainer from "../../ui/flexContainer"
-import ListCities from "../../../components/features/listCities"
+import facebookIcon from "@/assets/icons/Facebook.svg"
+import twitterIcon from "@/assets/icons/twitter.svg"
+import FlexContainer from "@/components/ui/flexContainer"
+import ListCities from "@/components/features/listCities"
 import styles from './styles.module.css'
 
 function Footer () {
     return (
         <div className={styles.footer}>
             <FlexContainer className={styles.footerContainerTop}>
-                <p>Популярные города</p>
+                <p className={styles.p_cities}>Популярные города</p>
                     <FlexContainer className={styles.footerContainerList}>
                         <ListCities />
                     </FlexContainer>
