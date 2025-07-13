@@ -83,6 +83,7 @@ h1{
     display: flex;
     width: 1133px;
     background-color: #FFFFFF;
+    box-shadow: 6px 5px 9px #00000026;
 }
 
 .searchLinksContainer {
